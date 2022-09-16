@@ -7,3 +7,10 @@ console.log("Short sleeves won't cut it!");
 console.log("Short sleeves are fine.");
 }
 console.log("Now you're ready to go outside!");
+
+const isCitizen=true;
+const age=26;
+
+if (isCitizen && age>18) {
+console.log("You are eligible to vote.");
+}
